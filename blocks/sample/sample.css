@@ -1,0 +1,9 @@
+@layer layout {
+  .test {
+    color: blue;
+  }
+}
+
+@layer style {}
+
+/*# sourceMappingURL=../maps/sample/sample.css.map */

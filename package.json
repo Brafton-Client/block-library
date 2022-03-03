@@ -1,0 +1,41 @@
+{
+  "name": "block-library",
+  "version": "1.0.0",
+  "description": "library of custom components both in raw html for conversion to any modular cms and wordpress gutenberg specific blocks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-watch": "gulp",
+    "sass-compile": "gulp sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brafton-client/block-library.git"
+  },
+  "keywords": [
+    "blocks",
+    "gutenberg",
+    "wordpress"
+  ],
+  "author": "Brafton INC.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brafton-client/block-library/issues"
+  },
+  "homepage": "https://github.com/brafton-client/block-library#readme",
+  "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "gulp": "^4.0.2",
+    "gulp-notify": "^3.2.0",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "notify-send": "^0.1.2",
+    "postcss": "^8.3.5"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "IE 11"
+  ]
+}
